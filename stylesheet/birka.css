@@ -1,0 +1,296 @@
+.bir1{
+  width: 150%;
+  height: 150%;
+  z-index: 2;
+  position: relative;
+  margin-top: -173%;
+  left: -14%;
+  animation: bir1 3s ease-in-out infinite;
+  animation-play-state: running;
+  animation-delay: 0.5;
+}
+@keyframes bir1 {
+  0% {transform: rotate(-13deg) translateX(30px);}
+  2% {transform: rotate(-13deg)translateX(30px);;}
+  50% {transform: rotate(13deg)translateX(-30px);;}
+  100% {transform: rotate(-13deg) translateX(30px);;}
+}
+div.bir1:hover{
+  animation-play-state: paused;
+}
+h1{
+  font-weight: 800;
+  font-size: 250%;
+}
+.nazv{
+  top: 10%;
+  left: 20%;
+  position: absolute;
+  z-index: 1;
+}
+p{
+  font-weight:800;
+  font-size: 130%;
+}
+.podpis{
+  top: 67%;
+  left: 11%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  line-height: 220%;
+}
+.bir2{
+  width: 25%;
+  height: 25%;
+  z-index: 2;
+  position: relative;
+  margin-top: -34.6%;
+  left: 34%;
+  animation: bir2 3s ease-in-out infinite;
+  animation-play-state: running;
+  animation-delay: 1.7s;
+}
+@keyframes bir2 {
+    0% {transform: rotate(-13deg) translateX(80px);}
+    2% {transform: rotate(-13deg) translateX(80px);;}
+    50% {transform: rotate(11deg) translateX(-80px);;}
+    100% {transform: rotate(-13deg) translateX(80px);;}
+  }
+div.bir2:hover{
+  animation-play-state: paused;
+}
+.glaz{
+  z-index: 1;
+  width: 65px;
+  height: 65px;
+  margin-top: 210%;
+  left: 18.2%;
+  position: absolute;
+  background: url('../img/glaz.svg');
+  animation: glaz 1s steps(2) infinite ;
+}
+@keyframes glaz {
+  0%{background-position: 0px;}
+  100%{background-position: -130px;}
+}
+.nazv2{
+  top: 73%;
+  left: 24%;
+  position: absolute;
+  z-index: 1;
+  font-size: 90%;
+}
+.podpis2{
+  top: 80%;
+  left: 60%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  line-height: 220%;
+}
+.bir3{
+  width: 16%;
+  height: 16%;
+  z-index: 2;
+  position: relative;
+  margin-top: -32.5%;
+  left: 62%;
+  animation: bir3 3s ease-in-out infinite;
+  animation-play-state: running;
+  animation-delay: 1.7s;
+}
+.glaz2{
+  z-index: 1;
+  width: 79px;
+  height: 79px;
+  margin-top: 269%;
+  left: 28%;
+  position: absolute;
+  background: url('../img/glaz2.svg');
+  animation: glaz2 1s steps(2) infinite ;
+}
+@keyframes glaz2 {
+  0%{background-position: 0px;}
+  100%{background-position: -158px;}
+}
+.nazv3{
+  top: 59%;
+  left: 18%;
+  position: absolute;
+  z-index: 1;
+  font-size: 90%;
+}
+.podpis3{
+  top: 83%;
+  left: 9%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  line-height: 220%;
+}
+@keyframes bir3 {
+  0% {transform: rotate(-13deg) translateX(80px);}
+  2% {transform: rotate(-13deg) translateX(80px);;}
+  50% {transform: rotate(11deg) translateX(-80px);;}
+  100% {transform: rotate(-13deg) translateX(80px);;}
+}
+div.bir3:hover{
+  animation-play-state: paused;
+}
+.bir4{
+  width: 16%;
+  height: 16%;
+  z-index: 2;
+  position: relative;
+  margin-top: -21%;
+  left: 10%;
+  animation: bir1 3s ease-in-out infinite;
+  animation-play-state: running;
+  animation-delay: 1.7s;
+}
+div.bir4:hover{
+  animation-play-state: paused;
+}
+.nazv4{
+  top: 7%;
+  left: 26%;
+  position: absolute;
+  z-index: 1;
+  font-size: 90%;
+}
+.podpis4{
+  top: 67%;
+  left: 9%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  line-height: 220%;
+}
+.bir5{
+  width: 28%;
+  height: 28%;
+  z-index: 2;
+  position: relative;
+  margin-top: -21%;
+  left: 12.3%;
+  animation: bir1 3s ease-in-out infinite;
+  animation-play-state: running;
+  animation-delay: 1.7s;
+}
+.nazv5{
+  top: 65%;
+  left: 28%;
+  position: absolute;
+  z-index: 1;
+  font-size: 75%;
+}
+.podpis5{
+  top: 36%;
+  left: 4%;
+  position: absolute;
+  z-index: 1;
+  text-align: start;
+  line-height: 198%;
+}
+.podpis6{
+  top: 50%;
+  left: 70%;
+  position: absolute;
+  z-index: 1;
+  text-align: end;
+  line-height: 198%;
+}
+div.bir5:hover{
+  animation-play-state: paused;
+}
+.bir6{
+  width: 17%;
+  height: 17%;
+  z-index: 2;
+  position: relative;
+  margin-top: -19%;
+  left: 51%;
+  animation: bir1 3s ease-in-out infinite;
+  animation-play-state: running;
+  animation-delay: 1.7s;
+}
+.glaz3{
+  z-index: 1;
+  width: 79px;
+  height: 79px;
+  margin-top: 58%;
+  left: 31%;
+  position: absolute;
+  background: url('../img/glaz2.svg');
+  animation: glaz2 1s steps(2) infinite ;
+}
+.nazv6{
+  top: 10%;
+  left: 14%;
+  position: absolute;
+  z-index: 1;
+  font-size: 83%;
+}
+.podpis7{
+  top: 64%;
+  left: 10%;
+  position: absolute;
+  z-index: 1;
+  line-height: 220%;
+}
+.podpis8{
+  top: 75%;
+  left: 29%;
+  position: absolute;
+  z-index: 1;
+  line-height: 220%;
+}
+div.bir6:hover{
+  animation-play-state: paused;
+}
+.bir7{
+  width: 19%;
+  height: 19%;
+  z-index: 2;
+  position: relative;
+  margin-top: -22%;
+  left: 70%;
+  animation: bir1 3s ease-in-out infinite;
+  animation-play-state: running;
+  animation-delay: 1.7s;
+}
+.glaz4{
+  z-index: 1;
+  width: 79px;
+  height: 79px;
+  margin-top: 65%;
+  left: 33%;
+  position: absolute;
+  background: url('../img/glaz2.svg');
+  animation: glaz2 1s steps(2) infinite ;
+}
+.nazv7{
+  top: 15%;
+  left: 13%;
+  position: absolute;
+  z-index: 1;
+  font-size: 88%;
+}
+.podpis9{
+  top: 68%;
+  left: 11%;
+  position: absolute;
+  z-index: 1;
+  font-size: 110%;
+}
+.podpis10{
+  top: 79%;
+  left: 33%;
+  position: absolute;
+  z-index: 1;
+  font-size: 110%;
+}
+div.bir7:hover{
+  animation-play-state: paused;
+}

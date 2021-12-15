@@ -1,0 +1,321 @@
+body{
+  font-family: Inter;
+  background-color: black;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.veska{
+  z-index: -1;
+  display:block;
+  margin:auto;
+  width: 95%;
+  height: 95%;
+  margin-top: 1%;
+}
+.container1{
+position: relative;
+margin-top: 24%;
+z-index: 0;
+}
+.but1{
+  z-index: 1;
+  width: 11%;
+  height: 11%;
+  position: relative;
+  left: 7%;
+  margin-top: -43%;
+}
+.but2{
+  z-index: -2;
+  width: 11%;
+  height: 11%;
+  position: relative;
+  left: 41%;
+  margin-top: -49%;
+}
+.stakan1{
+  display: block;
+  z-index: -2;
+  width: 11%;
+  height: 11%;
+  position: relative;
+  left: 63%;
+  margin-top: -50%;
+}
+.vish{
+  display: block;
+  z-index: 1;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 30%;
+  margin-top: 33%;
+  animation: vi 1.2s infinite ease-in-out alternate;
+}
+@keyframes vi {
+0%{top: 0px;}
+100%{top: -20px;}
+}
+.but3{
+  z-index: -2;
+  width: 11%;
+  height: 11%;
+  position: relative;
+  left: 80%;
+  margin-top: -41%;
+}
+.container2{
+position: relative;
+margin-top: 49%;
+z-index: 0;
+}
+.stakanbut{
+  z-index: -2;
+  width: 40%;
+  height: 40%;
+  position: relative;
+  left: 4%;
+  margin-top: -26.6%;
+}
+.tru{
+  z-index: -1;
+  width: 65%;
+  height: 65%;
+  position: absolute;
+  left: 20%;
+  margin-top: -15%;
+  animation: tru 1s infinite ease-out alternate;
+}
+@keyframes tru {
+ 0%{top: 0px;}
+ 100%{top: -36px;}
+}
+.but4{
+  z-index: -2;
+  width: 18%;
+  height: 18%;
+  position: relative;
+  left: 60%;
+  margin-top: -44%;
+}
+.stakan2{
+  z-index: -2;
+  width: 10%;
+  height: 10%;
+  position: relative;
+  left: 84%;
+  margin-top: -63%;
+}
+.container3{
+position: relative;
+margin-top: 48.2%;
+z-index: 0;
+}
+.but5{
+  z-index: -2;
+  width: 12%;
+  height: 12%;
+  position: relative;
+  left: 10%;
+  margin-top: -47%;
+}
+.stakan3{
+  z-index: -2;
+  width: 19%;
+  height: 19%;
+  position: relative;
+  left: 34%;
+  margin-top: -37%;
+}
+.but6{
+  z-index: -2;
+  width: 17%;
+  height: 17%;
+  position: relative;
+  left: 83%;
+  margin-top: -44%;
+}
+.kap{
+  z-index: -2;
+  width: 2%;
+  height: 2%;
+  position: relative;
+  left: 46.3%;
+  margin-top: -51%;
+  animation: drop 1s infinite ease-in;
+}
+@keyframes drop{
+     0% {opacity:0 ;transform: translateY(0); }
+     90% {transform: translateY(180px);}
+     100% {transform: translateY(350px);}
+}
+.container4{
+position: relative;
+margin-top: 49.2%;
+z-index: 0;
+}
+.but7{
+  z-index: -2;
+  width: 15%;
+  height: 15%;
+  position: relative;
+  left: 0%;
+  margin-top: -45.5%;
+}
+.but8{
+  z-index: -2;
+  width: 11%;
+  height: 11%;
+  position: relative;
+  left: 20%;
+  margin-top: -40%;
+}
+.but9{
+  z-index: -2;
+  width: 10.3%;
+  height: 10.3%;
+  position: relative;
+  left: 53%;
+  margin-top: -39.2%;
+}
+.stakan4{
+  z-index: -2;
+  width: 9%;
+  height: 9%;
+  position: relative;
+  left: 75%;
+  margin-top: -37%;
+}
+.led{
+  display: block;
+  z-index: 1;
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  left: 40%;
+  margin-top: 33%;
+  animation: led 1.2s infinite ease-in-out alternate;
+}
+@keyframes led {
+0%{top: 0px;}
+100%{top: -15px;}
+}
+.stakan5{
+  z-index: -2;
+  width: 8%;
+  height: 8%;
+  position: relative;
+  left: 92%;
+  margin-top: -24%;
+}
+.container5{
+position: relative;
+margin-top: 47.8%;
+z-index: 0;
+}
+.stakan6{
+  z-index: -1;
+  width: 13%;
+  height: 13%;
+  position: relative;
+  left: 10%;
+  margin-top: -30%;
+}
+.apel{
+  z-index: -2;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  left: 53%;
+  margin-top: -92%;
+  animation: apel 8s paused linear infinite;
+}
+@keyframes apel {
+  0% {-webkit-transform:rotate(0deg);
+          -moz-transform:rotate(0deg);
+          -o-transform:rotate(0deg);
+          transform:rotate(0deg);}
+      100% {-webkit-transform:rotate(360deg);
+          -moz-transform:rotate(360deg);
+          -o-transform:rotate(360deg);
+          transform:rotate(360deg);}
+}
+div.apel:hover{
+  animation-play-state: running ;
+}
+.but10{
+  z-index: -2;
+  width: 18%;
+  height: 18%;
+  position: relative;
+  left: 36%;
+  margin-top: -43%;
+}
+.stakan7{
+  z-index: -2;
+  width: 15%;
+  height: 15%;
+  position: relative;
+  left: 56%;
+  margin-top: -34%;
+}
+.but11{
+  z-index: -2;
+  width: 12%;
+  height: 12%;
+  position: relative;
+  left: 75%;
+  margin-top: -42%;
+}
+.container6{
+position: relative;
+margin-top: -9.4%;
+z-index: -1;
+}
+.marquee{
+width:100%;
+white-space:nowrap;
+overflow:hidden;
+z-index: 1;
+margin-top: -30%;
+}
+.marquee span {
+color:#E6266C;
+font-size: 600%;
+font-weight: 600;
+display:inline-block;
+padding-left:100%;
+animation: marquee 10s infinite linear;
+}
+@keyframes marquee{
+0%{transform: translate(0, 0);}
+100%{transform: translate(-100%, 0)}
+}
+.fut1 p{
+  color:#E6266C;
+  position: relative;
+  font-weight: 200;
+  line-height: 190%;
+  z-index: 1;
+  margin-top: 10%;
+  padding-left: 2%;
+}
+.fut2 p{
+  color:#E6266C;
+  position: relative;
+  font-weight: 200;
+  z-index: 1;
+  margin-top: -4%;
+  padding-left: 93%;
+}
